@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<!-- 绝对定位会删除元素在文档流中的空间，且元素会浮起来。相对定位元素会浮起来，但它依旧占据原来的位置，不会删除元素在文档流中的空间 设置负margin的方法来是实现固定高度div的水平和垂直居中-->
+<meta charset='utf-8'>
+<head>
+	<title>任务4 固定高度的div</title>
+</head>
+<style type="text/css">
+*{
+	padding: 0px;
+	margin: 0px;
+}
+	.box{
+		width: 400px;
+		height: 200px;
+		background: #ccc;
+		position: absolute;/*只要父级元素不是static定位，那么子元素就是相对于父级元素定位的，如果父元素没有relative,position,fixed其中的一种，那么子元素就是相对于body来定位的*/
+		overflow: hidden;
+		left: 50%;
+		top: 50%;
+		margin-left: -200px;/*设置为宽度和高度的一半，实现垂直和水平居中*/
+		margin-top: -100px;
+	}
+	.circle{
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		background: #fc0;
+		position: absolute;
+	}
+	.top{
+		left: -50px;
+		top: -50px;
+	}
+	.bottom{
+		bottom: -50px;
+		right: -50px;
+	}
+</style>
+<body>
+<div class='box'>
+	<div class='circle top'></div>
+	<div class='circle bottom'></div>
+</div>
+</body>
+</html>
