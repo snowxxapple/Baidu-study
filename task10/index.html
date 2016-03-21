@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<meta charset='utf-8'>
+
+<head>
+    <title>Flex布局</title>
+</head>
+<style type="text/css">
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div {
+    width: 150px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.first {
+    height: 120px;
+}
+
+.second {
+    height: 100px;
+}
+
+.third {
+    height: 40px;
+}
+
+.fourth {
+    height: 200px;
+    border: 1px solid #0f0;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .fourth {
+        order: -1;
+    }
+}
+</style>
+
+<body>
+    <div class='first'></div>
+    <div class='second'></div>
+    <div class='third'></div>
+    <div class='fourth'></div>
+</body>
+
+</html>
