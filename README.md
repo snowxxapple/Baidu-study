@@ -40,7 +40,7 @@
 <p>order 值越小排的越前，默认值为0，可以为负值</p>
 <p>flex-grow 放大比例</p>
 <p>flex-shrink 缩小比例</p>
-<p>flex-basis 在分配多多余空间时项目占据的大小</p>
-<p>flex flex-grow flex-shrink flex-basis的缩写</p>
+<p>flex-basis 在分配多余空间时项目占据的大小</p>
+<p>flex     flex-grow flex-shrink flex-basis的缩写</p>
 <p>align-self 可以覆盖align-items的属性</p>
 
