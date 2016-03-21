@@ -8,7 +8,7 @@
 + task7
 + task8
 + task9
-+ task10
++ [task10](http://snowxxapple.github.io/Baidu-study/task10/)
 
 ---
 ##### task3 三栏布局
@@ -25,3 +25,25 @@
 3. 利用margin负值实现水平居中和垂直居中定位
 4. div大小随内容而变化时，采用CSS3的transform:translateX(-50%) translateY(-50%)可以实现水平垂直定位
 5. 绝对定位会删除元素在文档流中的位置，元素变成浮动。相对定位的元素也是浮动的，但是它依旧占据它原来的位置，并不会删除在文档流中的位置。
+
+---
+##### task10 Flex布局
+##### 弹性盒模型，任何一个元素都可以指定为flex。display:flex/inline-flex。一个父级元素指定为flex之后，其子元素为其项目
+1. 容器的属性
+```javascript
++ flex-direction 主轴的方向
++  flex-wrap 是否换行
++ flex-flow  direction flow的缩写形式
++ justify-content 主轴方向的排列方式
++ align-items 侧轴方向的排列方式
++ align-content 多轴时的对齐方式
+```
+2. 项目的属性
+```javascript
++ order 值越小排的越前，默认值为0，可以为负值
++ flex-grow 放大比例
++ flex-shrink 缩小比例
++ flex-basis 在分配多多余空间时项目占据的大小
++ flex flex-grow flex-shrink flex-basis的缩写
++ align-self 可以覆盖align-items的属性
+```
