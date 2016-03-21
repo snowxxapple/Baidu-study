@@ -30,20 +30,17 @@
 ##### task10 Flex布局
 ##### 弹性盒模型，任何一个元素都可以指定为flex。display:flex/inline-flex。一个父级元素指定为flex之后，其子元素为其项目
 1. 容器的属性
-```javascript
-+ flex-direction 主轴的方向
-+  flex-wrap 是否换行
-+ flex-flow  direction flow的缩写形式
-+ justify-content 主轴方向的排列方式
-+ align-items 侧轴方向的排列方式
-+ align-content 多轴时的对齐方式
-```
+<p>flex-direction 主轴的方向</p>
+<p>flex-wrap 是否换行</p>
+<p>flex-flow  direction flow的缩写形式</p>
+<p>justify-content 主轴方向的排列方式</p>
+<p>align-items 侧轴方向的排列方式</p>
+<p>align-content 多轴时的对齐方式</p>
 2. 项目的属性
-```javascript
-+ order 值越小排的越前，默认值为0，可以为负值
-+ flex-grow 放大比例
-+ flex-shrink 缩小比例
-+ flex-basis 在分配多多余空间时项目占据的大小
-+ flex flex-grow flex-shrink flex-basis的缩写
-+ align-self 可以覆盖align-items的属性
-```
+<p>order 值越小排的越前，默认值为0，可以为负值</p>
+<p>flex-grow 放大比例</p>
+<p>flex-shrink 缩小比例</p>
+<p>flex-basis 在分配多多余空间时项目占据的大小</p>
+<p>flex flex-grow flex-shrink flex-basis的缩写</p>
+<p>align-self 可以覆盖align-items的属性</p>
+
