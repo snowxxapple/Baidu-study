@@ -41,6 +41,6 @@
 <p>flex-grow 放大比例</p>
 <p>flex-shrink 缩小比例</p>
 <p>flex-basis 在分配多余空间时项目占据的大小</p>
-<p>flex     flex-grow flex-shrink flex-basis的缩写</p>
+<p>flex     是flex-grow flex-shrink flex-basis的缩写</p>
 <p>align-self 可以覆盖align-items的属性</p>
 
