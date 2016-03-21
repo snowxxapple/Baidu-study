@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<!-- 应用浮动来实现三栏布局 需要注意：1 两侧栏应用浮动。2 中间栏不需要放在浮动元素后面，否则当浏览器在解析div时会自动换行，这样在其后面的浮动元素也会跟着换行;另外，中间栏实际上两边是会被压住的，只不过把字显示在不被压住的地方，因此要让两边不被压住，可以设置margin-left和margin-right，其值就是两侧栏的宽度。3 使用浮动的元素，如果没有给宽高，且没有内容，那么是看不见的，同时也撑不起父元素的高度，解决办法，给父元素加上overflow:auto;使得其自动包含子元素，从而父元素有了实际的宽高。-->
+
+<head>
+    <title>任务三</title>
+    <meta charset='utf-8'>
+</head>
+<style type="text/css">
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    background: #eee;
+    border: solid 1px #999;
+    overflow: auto;
+    /*使得父元素自动包含浮动子元素*/
+}
+
+.inner {
+    padding: 20px;
+    box-sizing: border-box;
+    /*IE盒模型，大小不受padding,border的影响*/
+    background: white;
+    border: 1px solid black;
+}
+
+.left {
+    width: 200px;
+    float: left;
+}
+
+.right {
+    width: 120px;
+    float: right;
+}
+
+.middle {
+    margin-left: 220px;
+    margin-right: 140px;
+}
+
+.left img {
+    float: left;
+}
+
+.left h5 {
+    float: right;
+}
+</style>
+
+<body>
+    <div class='box'>
+        <div class='inner left'>
+            <img src="img/1.jpg">
+            <h5>团队名称</h5>
+        </div>
+        <div class='inner right'>
+            <img src="img/1.jpg" alt='img'>
+            <img src="img/1.jpg" alt='img'>
+            <img src="img/1.jpg" alt='img'>
+            <img src="img/1.jpg" alt='img'>
+        </div>
+        <div class='inner middle'>
+            <h3>团队介绍</h3>
+            <p>百度Web前端技术学院是一个由百度人力资源部校园招聘组、百度EFE团队联合出品的。如果四季轮回爱上漂泊 如果湖水清澈倒映着我 如果天空广阔从不寂寞 只为远方自由湛蓝的王国 勇敢的候鸟往南飞 跨过千山的重围 天空再黑有你伴随 也会从容的面对 勇敢的候鸟不停飞 跨过千山和万水 在梦想到达的时刻 分享眼泪 如果四季轮回爱上漂泊 如果湖水清澈倒映着我 如果天空广阔从不寂寞 只为远方自由湛蓝的王国 勇敢的候鸟往南飞 跨过千山的重围 天空再黑有你伴随 也会从容的面对 勇敢的候鸟不停飞 跨过千山和万水 在梦想到达的时刻 分享眼泪 不畏寒冷遥远的追 无怨无悔 相信有天总会停靠 温暖的怀抱 候鸟往南飞 跨过千山的重围 天空再黑有你伴随 也会从容的面对 勇敢的候鸟不停飞 跨过千山和万水 在梦想到达的时刻 分享眼泪 我眺望这世界的背 相约再会</p>
+        </div>
+    </div>
+</body>
+
+</html>
