@@ -12,7 +12,10 @@
 
 ---
 ##### task1 简单HTML标签使用
-
+> `<b>`用于粗体 
+> `<i>`用于斜体
+可以用`label`标签关联一个radio按钮，点击`label`标签时，radio按钮将被选中
+`name`属性主要为了表识表单
 ---
 ##### task3 三栏布局
 ##### 应用浮动来实现三栏布局 需要注意：
@@ -31,7 +34,7 @@
 
 ---
 ##### task10 Flex布局
-##### 弹性盒模型，任何一个元素都可以指定为flex。display:flex/inline-flex。一个父级元素指定为flex之后，其子元素为其项目
+##### 弹性盒模型，任何一个元素都可以指定为flex。display:flex/inline-flex。一个父级元素指定为f\lex之后，其子元素为其项目
 1. 容器的属性
 <p>flex-direction 主轴的方向</p>
 <p>flex-wrap 是否换行</p>
