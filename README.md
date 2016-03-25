@@ -1,5 +1,5 @@
 # Baidu-study
-+ task1
++ [task1](http://snowxxapple.github.io/Baidu-study/task1/)
 + task2
 + [task3](http://snowxxapple.github.io/Baidu-study/task3/)
 + [task4](http://snowxxapple.github.io/Baidu-study/task4/index1.html)
@@ -9,6 +9,9 @@
 + task8
 + task9
 + [task10](http://snowxxapple.github.io/Baidu-study/task10/)
+
+---
+##### task1 简单HTML标签使用
 
 ---
 ##### task3 三栏布局
