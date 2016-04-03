@@ -1,6 +1,6 @@
 # Baidu-study
 + [task1](http://snowxxapple.github.io/Baidu-study/task1/)
-+ task2
++ [task2](http://snowxxapple.github.io/Baidu-study/task2/)
 + [task3](http://snowxxapple.github.io/Baidu-study/task3/)
 + [task4](http://snowxxapple.github.io/Baidu-study/task4/index1.html)
 + task5
@@ -12,6 +12,23 @@
 
 ---
 ##### task1 简单HTML标签使用
+`<b>`用于粗体 
+`<i>`用于斜体
+可以用`label`标签关联一个radio按钮，点击`label`标签时，radio按钮将被选中
+`name`属性主要为了表识表单
+
+---
+
+##### task2 简单css使用
+``` css
+list-style: none;//去掉点
+text-decoration: none;//去掉下划线
+border-collapse: collapse;//把表格的线条合并
+display: inline-block;//行内块级元素
+```
+右端固定，左端自适应，可以设置`margin-right`
+`label`标签的`for`属性，可以和`input`标签绑定
+了解下Sass
 
 ---
 ##### task3 三栏布局
@@ -31,7 +48,7 @@
 
 ---
 ##### task10 Flex布局
-##### 弹性盒模型，任何一个元素都可以指定为flex。display:flex/inline-flex。一个父级元素指定为flex之后，其子元素为其项目
+##### 弹性盒模型，任何一个元素都可以指定为flex。display:flex/inline-flex。一个父级元素指定为f\lex之后，其子元素为其项目
 1. 容器的属性
 <p>flex-direction 主轴的方向</p>
 <p>flex-wrap 是否换行</p>
