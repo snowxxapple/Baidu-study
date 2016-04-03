@@ -12,11 +12,13 @@
 
 ---
 ##### task1 简单HTML标签使用
-> `<b>`用于粗体 
-> `<i>`用于斜体
+`<b>`用于粗体 
+`<i>`用于斜体
 可以用`label`标签关联一个radio按钮，点击`label`标签时，radio按钮将被选中
 `name`属性主要为了表识表单
+
 ---
+
 ##### task2 简单css使用
 ``` css
 list-style: none;//去掉点
@@ -27,6 +29,7 @@ display: inline-block;//行内块级元素
 右端固定，左端自适应，可以设置`margin-right`
 `label`标签的`for`属性，可以和`input`标签绑定
 了解下Sass
+
 ---
 ##### task3 三栏布局
 ##### 应用浮动来实现三栏布局 需要注意：
