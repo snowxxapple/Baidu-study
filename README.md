@@ -9,6 +9,7 @@
 + task8
 + task9
 + [task10](http://snowxxapple.github.io/Baidu-study/task10/)
++ [mission_2_1](http://snowxxapple.github.io/Baidu-study/mission_2_1/)
 
 ---
 ##### task1 简单HTML标签使用
@@ -64,3 +65,16 @@ display: inline-block;//行内块级元素
 <p>flex     是flex-grow flex-shrink flex-basis的缩写</p>
 <p>align-self 可以覆盖align-items的属性</p>
 
+---
+##### mission_2_1 click事件
+DOM0级处理方式：`onclick`
+DOM2级处理方式：`addEventListener`
+IE:`attachEvent`
+``` javascript
+button.addEventListener('事件', '处理函数', false冒泡阶段)
+```
+
+---
+##### mission_2_2 filter和innerHTML的使用
+`innerHTML` 返回标签之间的内容
+`filter` 可以处理数组的每一行元素
