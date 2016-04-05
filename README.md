@@ -9,6 +9,11 @@
 + task8
 + task9
 + [task10](http://snowxxapple.github.io/Baidu-study/task10/)
++ [mission_2_1](http://snowxxapple.github.io/Baidu-study/mission_2_1/)
++ [mission_2_2](http://snowxxapple.github.io/Baidu-study/mission_2_2/)
++ [mission_2_3](http://snowxxapple.github.io/Baidu-study/mission_2_3/)
++ [mission_2_4](http://snowxxapple.github.io/Baidu-study/mission_2_4/)
++ [mission_2_5](http://snowxxapple.github.io/Baidu-study/mission_2_5/)
 
 ---
 ##### task1 简单HTML标签使用
@@ -64,3 +69,68 @@ display: inline-block;//行内块级元素
 <p>flex     是flex-grow flex-shrink flex-basis的缩写</p>
 <p>align-self 可以覆盖align-items的属性</p>
 
+---
+##### mission_2_1 click事件
+DOM0级处理方式：`onclick`
+DOM2级处理方式：`addEventListener`
+IE:`attachEvent`
+``` javascript
+button.addEventListener('事件', '处理函数', false冒泡阶段)
+//处理函数加（）则直接执行一次
+```
+
+---
+##### mission_2_2 filter和innerHTML的使用
+`innerHTML` 返回标签之间的内容
+`filter` 可以处理数组的每一行元素
+
+---
+##### mission_2_3 slice函数
+字符串切割
+slice(start, end);
+split根据给定符号，将一个字符串切割为几个字符串(数组)
+splice(start, howmany, new1, new2, ...)删除后新增加
+join用给定符号把字符串连接起来(数组到字符串)
+
+---
+##### mission_2_4
+1. 正则判断字符串
+创建一个对象用于存储检索模式
+`i` 对大小写不敏感
+`g` 全局匹配
+``` javascript
+var re = new RegExp("a", "gi");//创建对象法
+var re = /a/gi;//直接量语法
+```
+该对象有3个方法
+ - test() 检索字符串中的指定值。返回值是 true 或 false
+ - exec() 法检索字符串中的指定值。返回值是被找到的值。如果没有发现匹配，则返回 null
+ - compile() 用于改变 RegExp
+ 可以用字符串的replace方法，替换匹配出来的字符
+
+2. 事件委托
+将事件绑定在父元素上，利用事件冒泡来实现
+3. for...in ...
+注意 hasOwnProperty 的使用,可以区分是否是原型链上的属性
+4. 对象动态添加属性
+var a = {};
+a.id = 1;
+a[id] = 1;
+a = {id, 1};
+
+---
+##### mission_2_5
+1. onchange事件
+支持该事件的 HTML 标签：
+`<input type="text">`, `<select>`, `<textarea>`
+2. flex弹性布局
+在侧轴上设置对齐方式
+``` css
+display:flex;
+align-items:flex-end;
+```
+3. 判断选项是否选中
+``` javascript
+document.getElementById.selectedOptions[0]
+document.getElementById.checked
+```
