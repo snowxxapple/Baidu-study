@@ -116,7 +116,17 @@ a = {id, 1};
 
 ---
 ##### mission_2_5
-onchange事件
+1. onchange事件
 支持该事件的 HTML 标签：
-<input type="text">, <select>, <textarea>
-display:flex;align-items:flex-end;
+`<input type="text">`, `<select>`, `<textarea>`
+2. flex弹性布局
+在侧轴上设置对齐方式
+``` css
+display:flex;
+align-items:flex-end;
+```
+3. 判断选项是否选中
+``` javascript
+document.getElementById.selectedOptions[0]
+document.getElementById.checked
+```
