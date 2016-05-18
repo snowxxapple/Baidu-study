@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #eee;
+	min-width: 600px;
+}
+li{
+	list-style: none;
+}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
+h1{display: none;}
+header nav ul li{
+	float: right;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+header nav ul li a{
+	color: #ccc;
+	text-decoration: none;
+
+}
+header nav img{
+	float: left;
+	margin-left: 20px;
+}
+.page{
+	/*width: 66%;*/
+	border: solid 1px #ccc;
+	margin: 10px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+	line-height: 1.5;
+	box-shadow: 2px 2px 2px #848484;
+}
+h2{
+	margin-bottom: 5px;
+}
+h3{
+	margin-bottom: 5px;
+}
+time{
+	padding-left: 5px;
+}
+aside{
+	float: right;
+	width: 350px;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 2px #848484;
+	line-height: 1.5;
+}
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 70px;
+	padding-top: 20px;
+}
+.page{
+	margin-right: 420px;
+}
+.page img{
+	padding: 10px;
+}
+.page li{
+	padding-left: 20px;
+}
+.pic{
+	border: 1px solid #ccc;
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 30px 10px 10px;
+}
+table{
+	*border: 1px solid #ccc;
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border-collapse:collapse;
+
+}
+thead{
+	background-color: black;
+	color: white;
+}
+thead th{
+	border: 1px solid #ccc;
+}
+td{
+	border: 1px solid #ccc;
+}
+tfoot{
+	background-color: gray;
+	font-weight: bold; 
+
+}
+aside h3{
+	border-left: 5px solid #ccc;
+	padding-left: 5px;
+}
+form label {
+	text-align: right;
+	float: left;
+	width: 50%;	
+}
+form p{
+	padding-left: 180px;
+}
+form input[type="submit"]{
+	width: 100%;
+	height: 30px;
+	color: green;
+	border-radius: 5px;
+}
+textarea{
+	min-height: 80px;
+	max-width: 200px;
+}
